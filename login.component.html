@@ -36,24 +36,22 @@
     <div class="form-group">   
       <div class="col-sm-offset-2 col-sm-10">
         <button type="submit" class="btn btn-primary">Login</button>
+
+        <a class="nav-link" [routerLink]="['/forgotpassword']">  forgot password</a>
+        <hr/>
       </div>
     </div>
-    <div class="form-group">
-      <div class="col-sm-offset-10 col-sm-10">
-      <li routerLinkActive="active">
-        <a class="nav-link" [routerLink]="['/forgotpassword']">forgotpassword</a>
-    </li>
-    </div>
-    </div>
+       <div class="form-group">
+        <div class="col-sm-offset-5 col-sm-10">
+          <a class="nav-link" [routerLink]="['/register']">Create a new account</a>
+        </div>
+       </div>
+
   </form>
 </div>
       </div>
 
     </div> <!-- /container -->
-<div class="container">
-  <p>See full live action implemented in our site, <a href="https://reezhdesign.com" rel="author">ReeZh Design</a></p>
-</div>
-
 </body>
 </html>
 
