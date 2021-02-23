@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>registration</title>
+     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<style>
+body {
+  background-image: url("img.jpg"); 
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:white;
+}
+ 
+
+
+.container {
+  padding: 16px;
+}
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+
+a {
+  color: dodgerblue;
+}
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+</style>
+<body>
+<div class="container">
+
+<form action="log.jsp">
+  <div class="container">
+    <h1>Login</h1>
+    
+   <label for="email"><b>Email</b></label>
+    <input type=text placeholder="Enter Email" name= t6 required> 
+    
+    
+    <label for="psw"><b>Password</b></label>
+    <input type=password placeholder="Enter Password" name=t7  required>
+     
+     
+     <button type="submit" class="registerbtn">Login</button>
+   </div>
+   </body>
+</form>
+</html>
